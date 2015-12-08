@@ -8,3 +8,12 @@
     the function returns
     - (basic room price * number of nights) + gratuity
 */
+
+var hotel  = {
+  roomPrice: 120,
+  calcPrice: function(numOfNights, totalTip) {
+    return (this.roomPrice * numOfNights) + totalTip;
+  }
+}
+
+var total = hotel.calcPrice(3, 30);

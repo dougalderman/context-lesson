@@ -3,7 +3,7 @@ Younger= Age / 2.0 + 7.0
 Older= (Age - 7.0) * 2
 */
 
-name
+// name
 
 var person = {
   name: "Single Steve",
@@ -29,4 +29,4 @@ console.log(person.datingMax)
 The function should say "I'm " + name + ", How you doin' ?"*/
 
 
-/* Invoke the function on the person and then not on the person.
+/* Invoke the function on the person and then not on the person. */

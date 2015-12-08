@@ -1,3 +1,5 @@
+var sushi;
+
 function makeSushi(){
   this.sushi = "California Roll"
 }
